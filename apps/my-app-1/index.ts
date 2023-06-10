@@ -1,3 +1,5 @@
-import * as monolib from '@monorepo/lib'
+import * as monolib from '@monorepo/greet-lib'
 
-console.log(monolib.getRandomFruit())
+export function helloWorld() {
+  console.log(monolib.greet())
+}

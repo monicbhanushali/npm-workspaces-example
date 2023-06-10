@@ -1,9 +1,11 @@
 {
-  "name": "yes",
+  "name": "@monorepo/my-apps-1",
   "version": "1.0.0",
   "main": "build/index.js",
+  "types": "build/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "rm -rf build && tsc --build",
+    "start": "npm run build && node build/index.js"
   },
   "keywords": [],
   "author": "",
@@ -16,8 +18,9 @@
     "url": "https://github.com/monicbhanushali/npm-workspaces-example/issues"
   },
   "homepage": "https://github.com/monicbhanushali/npm-workspaces-example#readme",
-  "description": "",
   "dependencies": {
-    "@monorepo/lib": "^1.0.0"
-  }
+    "@monorepo/greet-lib": "^1.0.0"
+  },
+  "devDependencies": {},
+  "description": ""
 }

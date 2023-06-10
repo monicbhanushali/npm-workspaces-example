@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/monicbhanushali/npm-workspaces-example#readme",
   "workspaces": [
-    "packages/lib",
+    "packages/greet-lib",
     "apps/my-app-1"
   ],
   "dependencies": {

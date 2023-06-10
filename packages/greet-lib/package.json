@@ -1,5 +1,5 @@
 {
-  "name": "@monorepo/lib",
+  "name": "@monorepo/greet-lib",
   "version": "1.0.0",
   "description": "",
   "main": "build/index.js",
