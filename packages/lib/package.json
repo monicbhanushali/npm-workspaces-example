@@ -1,0 +1,21 @@
+{
+  "name": "@monorepo/lib",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "rm -rf build && tsc --build"
+  },
+  "types": "build/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/monicbhanushali/npm-workspaces-example.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/monicbhanushali/npm-workspaces-example/issues"
+  },
+  "homepage": "https://github.com/monicbhanushali/npm-workspaces-example#readme"
+}
